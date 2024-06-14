@@ -1,2 +1,4 @@
+from app import index
+
 def test_app():
-    pass
+    assert index() == "Hello Miki"
